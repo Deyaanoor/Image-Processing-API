@@ -6,7 +6,7 @@ import { processImage } from '../utilities/imageProcessing.js';
 
 const server = supertest(app);
 
-const testFile = 'encenadaport.jpg';
+const testFile = 'fjord.jpg';
 const resizeWidth = 200;
 const resizeHeight = 200;
 const outputFolder = path.resolve('./images/thumb');
